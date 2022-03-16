@@ -1,0 +1,44 @@
+<library path="lib/libbasic_quadrotor_behaviors">
+	<class name="basic_quadrotor_behaviors/BehaviorTakeOff" type="basic_quadrotor_behaviors::BehaviorTakeOff"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			BehaviorTakeOff.
+		</description>
+	</class>
+        <class name="basic_quadrotor_behaviors/BehaviorLand" type="basic_quadrotor_behaviors::BehaviorLand"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			BehaviorLand.
+		</description>
+	</class>
+        <class name="basic_quadrotor_behaviors/BehaviorWait" type="basic_quadrotor_behaviors::BehaviorWait"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			BehaviorWait.
+		</description>
+	</class>
+        <class name="basic_quadrotor_behaviors/BehaviorEstimatePositionWithLinearSpeed" type="basic_quadrotor_behaviors::BehaviorEstimatePositionWithLinearSpeed"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			BehaviorEstimatePositionWithLinearSpeed.
+		</description>
+	</class>
+        <class name="basic_quadrotor_behaviors/BehaviorEstimatePositionWithSensor" type="basic_quadrotor_behaviors::BehaviorEstimatePositionWithSensor"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			BehaviorEstimatePositionWithSensor.
+		</description>
+	</class>
+        <class name="basic_quadrotor_behaviors/BehaviorSelfLocalizeWithGroundTruth" type="basic_quadrotor_behaviors::BehaviorSelfLocalizeWithGroundTruth"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			BehaviorSelfLocalizeWithGroundTruth.
+		</description>
+	</class>
+        <class name="basic_quadrotor_behaviors/BehaviorHoverWithFlightActionControl" type="basic_quadrotor_behaviors::BehaviorHoverWithFlightActionControl"
+		base_class_type="nodelet::Nodelet">
+		<description>
+			BehaviorHoverWithFlightActionControl.
+		</description>
+	</class>
+</library>
